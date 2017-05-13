@@ -1,0 +1,26 @@
+{
+  "name": "cordova-do-app-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todaynowork/cordova-do-app-name.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/todaynowork/cordova-do-app-name/issues"
+  },
+  "homepage": "https://github.com/todaynowork/cordova-do-app-name#readme",
+  "dependencies": {
+    "fs-extra": "^3.0.1",
+    "lodash": "^4.17.4",
+    "xml2js": "^0.4.17",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.24"
+  }
+}
