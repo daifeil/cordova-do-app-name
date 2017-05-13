@@ -5,6 +5,7 @@
 	</description>
   <license>MIT</license>
   <platform name="android">
+    <hook src="hook/doAppName.js" type="after_prepare" />
 <!--     <hook type="after_plugin_add" src="scripts/android-install.js" />
     <hook type="after_plugin_install" src="scripts/android-install.js" />
     <hook type="before_plugin_rm" src="scripts/android-install.js" />
