@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:rim="http://www.blackberry.com/ns/widgets" id="cordova-do-app-name" version="1.8.4">
+  <name>DoAppName</name>
+  <description>
+	</description>
+  <license>MIT</license>
+  <platform name="android">
+<!--     <hook type="after_plugin_add" src="scripts/android-install.js" />
+    <hook type="after_plugin_install" src="scripts/android-install.js" />
+    <hook type="before_plugin_rm" src="scripts/android-install.js" />
+    <hook type="before_plugin_uninstall" src="scripts/android-install.js" /> -->
+<!-- 
+    <edit-config target="res/values/strings.xml" parent="/*" mode="merge">
+      <resoures>
+        <string name="app_name">bbbbb</string>
+      </resoures>
+    </edit-config> -->
+  </platform>  
+</plugin>
