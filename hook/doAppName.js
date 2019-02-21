@@ -34,7 +34,8 @@ module.exports = function(ctx) {
         var select = xpath.useNamespaces({"myns": "http://www.w3.org/ns/widgets"});
         var title = select("//myns:config-file[@parent='CFBundleDisplayName']/myns:string/text()", doc)[0].nodeValue;
         var appName = title;
-        var stringXmlFilePath = path.normalize(path.join(ctx.opts.projectRoot + '/platforms/android/res/values/strings.xml'));
+        var filePath='/platforms/android/app/src/main/res/values/strings.xml'
+        var stringXmlFilePath = path.normalize(path.join(ctx.opts.projectRoot + filePath));
         var stringXmlJson;
         if (! fileExists(stringXmlFilePath)) {
             //stringXmlJson
